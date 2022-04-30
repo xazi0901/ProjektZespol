@@ -9,9 +9,9 @@ export const Contact = () => {
                 <Container fluid id="containerContact">
                 <h1 className="contactH1">Kontakt</h1>
                 <div className="col-1" id="borderH1"></div>
-         <Row text-center>
+         <Row text-center id="rowContact">
                 <div className="col-12 col-md-6">
-                    <h3 className="contactH1">ZAMÓW REZETWACJE JUŻ DZISIAJ</h3>
+                    <h3 className="contactH1">ZAMÓW REZERWACJE JUŻ DZISIAJ</h3>
                     <p className="paragrafContact">Skorzystaj z naszego formularza kontaktowego celem rezerwacji samochodu. Oddzwonimy !</p>
                 </div>
                 <div className="col-12 col-md-5">
@@ -38,7 +38,7 @@ export const Contact = () => {
     <Form.Control type="email" placeholder="przykladowy@przykladowy.com" />
   </Form.Group>
     </Form.Group>
-    <Button type="submit">Wyślij</Button>
+    <Button type="submit" className="buttonContact">Wyślij</Button>
   </fieldset>
 </Form>
 </div>
